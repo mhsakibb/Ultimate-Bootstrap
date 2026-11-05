@@ -1,8 +1,15 @@
-.brand-gradient{
-            background: #0091ff; /* fallback for old browsers */
-            background: -webkit-linear-gradient(to top, #0091ff, #32cd4c);
-            background: linear-gradient(to top, #0091ff, #32cd4c); 
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
+.brand-gradient {
+    background: #0091ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0091ff, #32cd4c);
+    background: linear-gradient(to top, #0091ff, #32cd4c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.banner-holder{
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
